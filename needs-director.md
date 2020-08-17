@@ -14,7 +14,7 @@ Scenario: Compute parking slots to reserve for visiting specialists
 
   Given visiting specialists have fixed timings and days in a week
 and it is known they own a car or bike
-  When this data is given to car parking system at start of
-the day
+  When the car parking system gets visiting specialist data
+at start of the day
   Then system automatically reserves parking spots according
 to day and time
