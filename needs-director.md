@@ -7,7 +7,7 @@ entrance door, calendar synced report generation records count
 and patients visit hospital
   When patient enters through patient entrance door and steps on
 steps on foot-fall sensor counter
-  Then patient count is incremented, recorded and added to working
+  Then patient count is increments, records and adds to working
 or holiday patient visit report based on the current day
 
 Scenario: Compute parking slots to reserve for visiting specialists
