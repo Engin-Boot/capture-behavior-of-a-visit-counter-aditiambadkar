@@ -3,7 +3,7 @@
 Scenario: Report visitor trends during a week of operation
 
   Given foot fall counter sensor is located at patient
-entrance door and daily patient count records in calander
+entrance door and daily patient count records in calendar
 synced report generation application which prepares
 daily bar graph for a week
   When patient steps on foot fall sensor at patient
