@@ -9,7 +9,7 @@ daily bar graph for a week
   When patient steps on foot fall sensor at patient
 entrance
   Then count records for current day and report
-generation application updates bar graph for week   
+generation application updates bar graph for week
 
 Scenario: Alert when seating capacity is full
 
