@@ -4,7 +4,7 @@ Scenario: Show patient visits during working days and holidays
 
   Given foot-fall sensor counter located at patient
 entrance door, count is recorded in calendar synced
-report generation and patients visit hospital 
+report generation and patients visit hospital
   When patient enters through patient entrance door and steps on
 steps on foot-fall sensor counter
   Then patient count is incremented, recorded and added to working
