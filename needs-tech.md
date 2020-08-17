@@ -4,7 +4,7 @@ Scenario: Recover across restarts of the server
 that runs the visit-counter
 
   Given server has a real time backup available which stores
-latest visitor count 
+latest visitor count
   When server goes down
   Then real time backup recovers latest visitor count and updates
 server on restart
